@@ -1,6 +1,6 @@
 /* General styles */
 body {
-    background-image: url('mahito.jpeg');
+    background-image: url('https://github.com/EdwimDev/MyWebsite/raw/main/mahito.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -110,3 +110,4 @@ h1:hover, h2:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
