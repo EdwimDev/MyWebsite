@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Website - Edwin</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1 style="font-family:arial; text-align:center; color:darkblue; font-size:55px;">Edwin Carlos Mateus M.</h1>
+<h2 id="datetime" style="font-family:arial; text-align:center; color:darkgreen; font-size:30px;"></h2>
+<h1 class="subtitle" style="font-family:arial; text-align:center; color:darkred; font-size:25px;">Aspiring Software Engineer</h1>
+
+<br>
+<br>
+<br>
+
+<h2 class="section-title">About Me</h2> 
+<p>Hi, I am <strong>Edwin Carlos Mateus Mulima</strong>. I'm a <strong>15-year-old Angolan teenager</strong> who is currently in the 9th Grade, and I aspire to be a <strong>Software Engineer</strong> when I grow up. I will become a Software Engineer because ever since I was a little kid, the way computers, apps, websites, games, and recently, AI work has always amazed me. That's when I knew this is exactly what I wanted to be. This is what I want to do with my life. The languages I can currently speak are Portuguese and English. I'm currently studying the base structure of websites, <strong>HTML (Hyper Text Markup Language)</strong> at <a href="https://www.w3schools.com" target="_blank">W3Schools</a>. Coding is my comfort zone.</p>
+<hr>
+
+<h2 class="objectives-title">My Objectives and Ambitions</h2> 
+<p>I love learning about front-end coding, technology, and AI. Ever since I was little, websites like <a href="https://www.youtube.com" target="_blank">YouTube</a>, games like <a href="https://www.minecraft.net" target="_blank">Minecraft</a>, and the way computers work have always amazed me. When I grow up, I plan to become a <strong>FullStack Engineer</strong>, being completely able to work with both <strong>FrontEnd and BackEnd</strong> to bring ideas to life through coding.</p> 
+<hr>
+
+<h2 class="interests-title">Personal Interests</h2> 
+<p>Besides coding, I also enjoy watching videos on <a href="https://www.youtube.com" target="_blank">YouTube</a> and playing games like <a href="https://www.roblox.com" target="_blank">Roblox</a>, <a href="https://ff.garena.com" target="_blank">Garena Free Fire</a>, <a href="https://www.callofduty.com" target="_blank">Call Of Duty</a>, <a href="https://www.minecraft.net" target="_blank">Minecraft</a>, and <a href="https://warthunder.com" target="_blank">War Thunder</a>.</p>
+<hr>
+
+<h2>Learning Progress on <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3School's HTML Course</a></h2>
+<p>November 10th - HTML Home, Introduction, Editors, and Basic.</p>
+<p>November 11th - HTML Elements, Attributes, Headings, Paragraphs, Styles, Formatting, Quotation, and Comments.</p>
+<p>November 16th - HTML Colors (RGB, HEX, HSL, RGBA, and HSLA)</p>
+
+<script src="script.js"></script>
+<script>
+    function updateDateTime() {
+        const now = new Date();
+        const dateTimeString = now.toLocaleString();
+        document.getElementById('datetime').textContent = dateTimeString;
+    }
+
+    setInterval(updateDateTime, 1000);
+    updateDateTime();
+</script>
+</body>
+</html>
